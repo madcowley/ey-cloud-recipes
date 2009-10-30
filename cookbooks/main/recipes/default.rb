@@ -3,6 +3,7 @@ execute "testing" do
     echo "i ran at #{Time.now}" >> /root/cheftime
   }
 end
+require_recipe "postgres"
 
 # uncomment if you want to run couchdb recipe
 # require_recipe "couchdb"
